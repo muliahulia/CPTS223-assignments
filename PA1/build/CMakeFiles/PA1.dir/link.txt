@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/PA1.dir/main.cpp.o -o PA1
+/Library/Developer/CommandLineTools/usr/bin/c++  -Wall -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/PA1.dir/main.cpp.o CMakeFiles/PA1.dir/functions.cpp.o CMakeFiles/PA1.dir/list.cpp.o -o PA1

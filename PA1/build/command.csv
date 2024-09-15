@@ -1,0 +1,30 @@
+free, Shows the amount of free and used memory in the system
+finger, Displays information about system users
+find, Searches for files and directories within a directory hierarchy
+clear, Clears the terminal screen of previous commands and output
+exit, Terminates the current shell session
+echo, Displays text or variables on the command line
+grep, Global regular expression print searches files for matching patterns
+df, Disk free shows available disk space on filesystems
+chown, Change ownership changes file or directory ownership
+alias, Creates shortcuts for commands
+cat, Concatenate reads and displays the contents of files
+chmod, Change mode modifies file or directory permissions
+who, Displays who is currently logged in to the system
+top, Task manager displays active processes and system resource usage in real-time
+kill, Send signal to terminate a process by process ID (PID)
+ps, Process status displays information about active processes
+make, Build automation tool compiles and links programs using a 'Makefile' to determine how
+gcc, GNU Compiler Collection compiles C source code into an executable program
+g++, GNU C++ Compiler compiles C++ source code into an executable program
+man, Manual displays the user manual for a command
+scp, Secure Copy copies files securely between hosts over a network
+ssh, Secure Shell remotely access another machine over a network using encryption
+mv, Move moves or renames files and directories
+cp, Copy duplicates files or directories from one location to another
+rm, Remove deletes files or directories (use with caution for directories)
+rmdir, Remove directory deletes an empty directory
+mkdir, Make directory creates a new directory
+cd, Change directory used to navigate between directories
+ls, List displays the file and directory names in the current working directory
+pwd, Print working directory displays the current working directory path

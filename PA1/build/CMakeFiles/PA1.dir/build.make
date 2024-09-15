@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/juliasmith/Documents/CPTS223-assignments/PA1
+CMAKE_SOURCE_DIR = /Users/juliasmith/Documents/CPTS223-Assignments/PA1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/juliasmith/Documents/CPTS223-assignments/PA1/build
+CMAKE_BINARY_DIR = /Users/juliasmith/Documents/CPTS223-Assignments/PA1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PA1.dir/depend.make
@@ -70,30 +70,62 @@ include CMakeFiles/PA1.dir/progress.make
 include CMakeFiles/PA1.dir/flags.make
 
 CMakeFiles/PA1.dir/main.cpp.o: CMakeFiles/PA1.dir/flags.make
-CMakeFiles/PA1.dir/main.cpp.o: /Users/juliasmith/Documents/CPTS223-assignments/PA1/main.cpp
+CMakeFiles/PA1.dir/main.cpp.o: /Users/juliasmith/Documents/CPTS223-Assignments/PA1/main.cpp
 CMakeFiles/PA1.dir/main.cpp.o: CMakeFiles/PA1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/juliasmith/Documents/CPTS223-assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PA1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PA1.dir/main.cpp.o -MF CMakeFiles/PA1.dir/main.cpp.o.d -o CMakeFiles/PA1.dir/main.cpp.o -c /Users/juliasmith/Documents/CPTS223-assignments/PA1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/juliasmith/Documents/CPTS223-Assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PA1.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PA1.dir/main.cpp.o -MF CMakeFiles/PA1.dir/main.cpp.o.d -o CMakeFiles/PA1.dir/main.cpp.o -c /Users/juliasmith/Documents/CPTS223-Assignments/PA1/main.cpp
 
 CMakeFiles/PA1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PA1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliasmith/Documents/CPTS223-assignments/PA1/main.cpp > CMakeFiles/PA1.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliasmith/Documents/CPTS223-Assignments/PA1/main.cpp > CMakeFiles/PA1.dir/main.cpp.i
 
 CMakeFiles/PA1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PA1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliasmith/Documents/CPTS223-assignments/PA1/main.cpp -o CMakeFiles/PA1.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliasmith/Documents/CPTS223-Assignments/PA1/main.cpp -o CMakeFiles/PA1.dir/main.cpp.s
+
+CMakeFiles/PA1.dir/functions.cpp.o: CMakeFiles/PA1.dir/flags.make
+CMakeFiles/PA1.dir/functions.cpp.o: /Users/juliasmith/Documents/CPTS223-Assignments/PA1/functions.cpp
+CMakeFiles/PA1.dir/functions.cpp.o: CMakeFiles/PA1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/juliasmith/Documents/CPTS223-Assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PA1.dir/functions.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PA1.dir/functions.cpp.o -MF CMakeFiles/PA1.dir/functions.cpp.o.d -o CMakeFiles/PA1.dir/functions.cpp.o -c /Users/juliasmith/Documents/CPTS223-Assignments/PA1/functions.cpp
+
+CMakeFiles/PA1.dir/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PA1.dir/functions.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliasmith/Documents/CPTS223-Assignments/PA1/functions.cpp > CMakeFiles/PA1.dir/functions.cpp.i
+
+CMakeFiles/PA1.dir/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PA1.dir/functions.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliasmith/Documents/CPTS223-Assignments/PA1/functions.cpp -o CMakeFiles/PA1.dir/functions.cpp.s
+
+CMakeFiles/PA1.dir/list.cpp.o: CMakeFiles/PA1.dir/flags.make
+CMakeFiles/PA1.dir/list.cpp.o: /Users/juliasmith/Documents/CPTS223-Assignments/PA1/list.cpp
+CMakeFiles/PA1.dir/list.cpp.o: CMakeFiles/PA1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/juliasmith/Documents/CPTS223-Assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PA1.dir/list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PA1.dir/list.cpp.o -MF CMakeFiles/PA1.dir/list.cpp.o.d -o CMakeFiles/PA1.dir/list.cpp.o -c /Users/juliasmith/Documents/CPTS223-Assignments/PA1/list.cpp
+
+CMakeFiles/PA1.dir/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PA1.dir/list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/juliasmith/Documents/CPTS223-Assignments/PA1/list.cpp > CMakeFiles/PA1.dir/list.cpp.i
+
+CMakeFiles/PA1.dir/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PA1.dir/list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/juliasmith/Documents/CPTS223-Assignments/PA1/list.cpp -o CMakeFiles/PA1.dir/list.cpp.s
 
 # Object files for target PA1
 PA1_OBJECTS = \
-"CMakeFiles/PA1.dir/main.cpp.o"
+"CMakeFiles/PA1.dir/main.cpp.o" \
+"CMakeFiles/PA1.dir/functions.cpp.o" \
+"CMakeFiles/PA1.dir/list.cpp.o"
 
 # External object files for target PA1
 PA1_EXTERNAL_OBJECTS =
 
 PA1: CMakeFiles/PA1.dir/main.cpp.o
+PA1: CMakeFiles/PA1.dir/functions.cpp.o
+PA1: CMakeFiles/PA1.dir/list.cpp.o
 PA1: CMakeFiles/PA1.dir/build.make
 PA1: CMakeFiles/PA1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/juliasmith/Documents/CPTS223-assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PA1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/juliasmith/Documents/CPTS223-Assignments/PA1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PA1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PA1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +137,6 @@ CMakeFiles/PA1.dir/clean:
 .PHONY : CMakeFiles/PA1.dir/clean
 
 CMakeFiles/PA1.dir/depend:
-	cd /Users/juliasmith/Documents/CPTS223-assignments/PA1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/juliasmith/Documents/CPTS223-assignments/PA1 /Users/juliasmith/Documents/CPTS223-assignments/PA1 /Users/juliasmith/Documents/CPTS223-assignments/PA1/build /Users/juliasmith/Documents/CPTS223-assignments/PA1/build /Users/juliasmith/Documents/CPTS223-assignments/PA1/build/CMakeFiles/PA1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/juliasmith/Documents/CPTS223-Assignments/PA1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/juliasmith/Documents/CPTS223-Assignments/PA1 /Users/juliasmith/Documents/CPTS223-Assignments/PA1 /Users/juliasmith/Documents/CPTS223-Assignments/PA1/build /Users/juliasmith/Documents/CPTS223-Assignments/PA1/build /Users/juliasmith/Documents/CPTS223-Assignments/PA1/build/CMakeFiles/PA1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/PA1.dir/depend
 

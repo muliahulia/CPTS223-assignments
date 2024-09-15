@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PA1.dir/functions.cpp.o"
+  "CMakeFiles/PA1.dir/functions.cpp.o.d"
+  "CMakeFiles/PA1.dir/list.cpp.o"
+  "CMakeFiles/PA1.dir/list.cpp.o.d"
   "CMakeFiles/PA1.dir/main.cpp.o"
   "CMakeFiles/PA1.dir/main.cpp.o.d"
   "PA1"
