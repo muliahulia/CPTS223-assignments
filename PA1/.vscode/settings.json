@@ -2,6 +2,7 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         "iostream": "cpp",
+<<<<<<< HEAD:PA1/.vscode/settings.json
         "istream": "cpp",
         "vector": "cpp",
         "__bit_reference": "cpp",
@@ -51,5 +52,8 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "algorithm": "cpp"
+=======
+        "__config": "cpp"
+>>>>>>> ee3882b (Change):Documents/CPTS223-Assignmets/MA2/.vscode/settings.json
     }
 }
