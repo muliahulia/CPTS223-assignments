@@ -1,0 +1,3 @@
+/Users/juliasmith/Documents/MA2/MA2/build/CMakeFiles/MA2.dir
+/Users/juliasmith/Documents/MA2/MA2/build/CMakeFiles/edit_cache.dir
+/Users/juliasmith/Documents/MA2/MA2/build/CMakeFiles/rebuild_cache.dir
